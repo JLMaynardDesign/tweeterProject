@@ -1,0 +1,14 @@
+header {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(221, 150, 56);
+}
+
+.profile {
+  display: block;
+  margin: 0 auto;
+}
+
+.profileName {
+  text-align: center;
+}
