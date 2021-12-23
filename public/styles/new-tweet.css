@@ -66,6 +66,8 @@ width: 100%;
 .buttonCounter output {
   margin-right: 10px;
 }
-/*
 
-*/
+/* class for when remaining character exceeds 0, which is the limit */
+.redNotification {
+  color: red;
+}
