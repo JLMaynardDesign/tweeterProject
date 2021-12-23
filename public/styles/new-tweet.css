@@ -20,22 +20,8 @@
   font-weight: 600;
 }
 
-.tweet-text label {
-z-index:10;
-position: absolute;
-width: 100%;
-}
-
-.tweet-text label:hover {
-  color: transparent;
-}
-
-.tweet-text label:focus {
-  color: transparent;
-}
-
 .tweet-text textarea {
-  height: 40px;
+  height: 80px;
   background-color: transparent;
   color: #5f5c53;
   border: none;
@@ -65,6 +51,11 @@ width: 100%;
 
 .buttonCounter output {
   margin-right: 10px;
+}
+
+.counter {
+  font-family: "Bungee";
+  color: #6d4c3d;
 }
 
 /* class for when remaining character exceeds 0, which is the limit */
